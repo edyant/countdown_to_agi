@@ -45,6 +45,7 @@ The clock draws on a **public milestone timeline** maintained in this repository
 - **Year**: When the milestone occurred
 - **Description**: What changed and why it matters
 - **Clock Time**: Minutes to midnight at that moment
+- **Severity**: How impactful was this milestone towards AGI
 
 ### Calculation Method
 

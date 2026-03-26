@@ -6,211 +6,185 @@
   },
   "timeline": [
     {
-      "year": 2025,
+      "year": "2025",
       "title": "Reasoning-First Models",
-      "description": "OpenAI o3 and xAI Grok 3 emphasize extended reasoning and tool use for complex tasks.",
+      "description": "OpenAI o3 and xAI Grok 3 extend inference-time computation to improve performance on complex tasks. Both emphasize multi-step reasoning and tool integration, reflecting a shift toward test-time scaling as a primary capability lever.",
       "clockTime": "11:58 PM",
-      "alignment": "right",
       "severity": "danger"
     },
     {
-      "year": 2024,
+      "year": "September 2024",
       "title": "Deliberate Reasoning Models",
-      "description": "OpenAI o1-preview introduces models trained to spend more time reasoning, boosting performance on complex math, coding, and science tasks.",
+      "description": "OpenAI o1-preview applies reinforcement learning to train models that spend extended time reasoning before responding. This improves accuracy on math, coding, and scientific problems where chain-of-thought depth correlates with correctness.",
       "clockTime": "11:58 PM",
-      "alignment": "left",
       "severity": "danger"
     },
     {
-      "year": 2024,
+      "year": "February 2024",
       "title": "Text-to-Video Leap",
-      "description": "OpenAI Sora and Google DeepMind Veo push text-to-video and image-conditioned generation.",
+      "description": "OpenAI Sora and Google DeepMind Veo generate high-fidelity video from text prompts and image inputs. Both use diffusion-based architectures trained on large video datasets, producing temporally coherent outputs at resolutions suitable for production use.",
       "clockTime": "11:58 PM",
-      "alignment": "right",
       "severity": "danger"
     },
     {
-      "year": 2024,
+      "year": "September 2024",
       "title": "Apple Intelligence Launch",
-      "description": "Apple rolls out Apple Intelligence across iPhone, iPad, and Mac with on-device and private-cloud processing for privacy-preserving AI at consumer scale.",
+      "description": "Apple Intelligence integrates generative AI into iOS 18, iPadOS 18, and macOS Sequoia. Processing is split between on-device inference and Private Cloud Compute, keeping user data from being logged or used for model training.",
       "clockTime": "11:57 PM",
-      "alignment": "left",
       "severity": "critical"
     },
     {
-      "year": 2024,
+      "year": "May 2024",
       "title": "AlphaFold 3 for Biomolecular Systems",
-      "description": "DeepMind and Isomorphic Labs introduce AlphaFold 3, expanding prediction to interactions among proteins, DNA/RNA, and small molecules.",
+      "description": "AlphaFold 3 by DeepMind and Isomorphic Labs extends structure prediction beyond proteins to include DNA, RNA, and small-molecule ligands. A diffusion-based architecture replaces the earlier Evoformer pipeline, enabling joint modeling of molecular interactions.",
       "clockTime": "11:57 PM",
-      "alignment": "right",
       "severity": "critical"
     },
     {
-      "year": 2024,
+      "year": "April 2024",
       "title": "Efficient Small LLMs",
-      "description": "Microsoft's Phi-3 shows strong performance from small, local-capable models.",
+      "description": "Microsoft's Phi-3-mini achieves competitive benchmark scores with 3.8 billion parameters, small enough to run locally on mobile hardware. Performance is attributed to high-quality synthetic training data rather than increased model scale.",
       "clockTime": "11:57 PM",
-      "alignment": "left",
       "severity": "critical"
     },
     {
-      "year": 2024,
+      "year": "May 2024",
       "title": "Multimodal + Long-Context Frontier",
-      "description": "GPT-4o, Claude 3, and Gemini 1.5 deliver real-time multimodal interaction and long-context reasoning.",
+      "description": "GPT-4o, Claude 3, and Gemini 1.5 each support inputs combining text, images, and audio with context windows up to one million tokens. This enables document-level reasoning and real-time multimodal interaction within a single model call.",
       "clockTime": "11:56 PM",
-      "alignment": "right",
       "severity": "danger"
     },
     {
-      "year": 2024,
+      "year": "April 2024",
       "title": "Llama 3 Open Frontier",
-      "description": "Meta releases Llama 3 open-weight models, raising the capability and reach of the open LLM ecosystem.",
+      "description": "Meta released Llama 3 in 8B and 70B parameter sizes under a permissive license. The models matched or exceeded several closed-source models on standard benchmarks, accelerating open-weight fine-tuning and deployment across research and commercial applications.",
       "clockTime": "11:56 PM",
-      "alignment": "left",
       "severity": "critical"
     },
     {
-      "year": 2024,
+      "year": "March 2024",
       "title": "Enterprise RAG + Hybrid Models",
-      "description": "Cohere's Command R and AI21's Jamba prioritize production-scale RAG and efficient hybrid architectures for long-context workloads.",
+      "description": "Cohere Command R and AI21 Jamba target retrieval-augmented generation at production scale. Command R optimizes for grounded responses over long documents; Jamba combines Mamba state-space layers with transformer blocks to reduce memory cost at extended context lengths.",
       "clockTime": "11:56 PM",
-      "alignment": "right",
       "severity": "critical"
     },
     {
-      "year": 2024,
+      "year": "March 2024",
       "title": "Blackwell AI Infrastructure",
-      "description": "NVIDIA's Blackwell platform targets trillion-parameter-scale training and dramatically lower inference cost, reshaping AI infrastructure.",
+      "description": "NVIDIA's Blackwell GPU architecture introduces a second-generation transformer engine and NVLink Switch supporting 72-GPU clusters. It targets trillion-parameter training and reduces inference cost per token compared to the prior Hopper generation.",
       "clockTime": "11:56 PM",
-      "alignment": "left",
       "severity": "critical"
     },
     {
-      "year": 2023,
+      "year": "2023",
       "title": "Asia's Frontier LLM Wave",
-      "description": "Baidu (ERNIE 4.0), Alibaba (Tongyi Qianwen 2.0), Tencent (Hunyuan), Huawei (Pangu 3.0), Naver (HyperCLOVA X), and Samsung (Gauss) launch major regional LLMs, globalizing the frontier race.",
+      "description": "Baidu, Alibaba, Tencent, Huawei, Naver, and Samsung each released large language models optimized for regional languages and enterprise use cases. These releases signaled that frontier LLM development was no longer concentrated exclusively in US-based labs.",
       "clockTime": "11:55 PM",
-      "alignment": "right",
       "severity": "critical"
     },
     {
-      "year": 2023,
+      "year": "March 2023",
       "title": "Embodied AI Models",
-      "description": "PaLM-E and RT-2 connect language models to robots and embodied control.",
+      "description": "Google's PaLM-E and RT-2 embed language model representations directly into robotic control pipelines. RT-2 fine-tunes a vision-language model on robot trajectory data, enabling it to interpret novel instructions and generalize to objects not seen during robot training.",
       "clockTime": "11:55 PM",
-      "alignment": "left",
       "severity": "danger"
     },
     {
-      "year": 2023,
+      "year": "March 2023",
       "title": "Agentic Tool Use",
-      "description": "ReAct formalizes reasoning-and-acting with tools, and AutoGPT popularizes autonomous task loops.",
+      "description": "The ReAct framework interleaves language model reasoning steps with external tool calls, enabling verifiable, multi-step task execution. AutoGPT implemented this pattern autonomously, demonstrating persistent task loops without per-step human prompting.",
       "clockTime": "11:54 PM",
-      "alignment": "right",
       "severity": "danger"
     },
     {
-      "year": 2023,
+      "year": "2023",
       "title": "Frontier LLM Competition",
-      "description": "Anthropic Claude 2, Google Gemini 1.0, and xAI Grok expand the frontier race.",
+      "description": "Anthropic Claude 2, Google Gemini 1.0, and xAI Grok each extended instruction-following capability and context length beyond GPT-3.5-level baselines. Their release compressed the performance gap at the frontier and increased competitive pressure on OpenAI.",
       "clockTime": "11:53 PM",
-      "alignment": "left",
       "severity": "critical"
     },
     {
-      "year": 2023,
+      "year": "March 2023",
       "title": "GPT-4 & Multimodal Reasoning",
-      "description": "GPT-4 advances benchmark performance and multimodal reasoning.",
+      "description": "GPT-4 accepted image and text inputs and improved substantially on professional benchmarks including bar and medical licensing exams. Its performance gains over GPT-3.5 were attributed to scale, RLHF refinements, and expanded pretraining data diversity.",
       "clockTime": "11:52 PM",
-      "alignment": "right",
       "severity": "danger"
     },
     {
-      "year": 2022,
+      "year": "November 2022",
       "title": "ChatGPT Launch",
-      "description": "ChatGPT brings conversational LLMs to mass adoption and everyday workflows.",
+      "description": "ChatGPT applied RLHF to GPT-3.5 to produce a conversational interface that reached one million users in five days. It demonstrated that fine-tuning for dialogue and instruction-following could make large language models practically usable without prompt engineering expertise.",
       "clockTime": "11:50 PM",
-      "alignment": "left",
       "severity": "danger"
     },
     {
-      "year": 2020,
+      "year": "November 2020",
       "title": "AlphaFold2 Breakthrough",
-      "description": "DeepMind's AlphaFold2 reaches near-experimental protein structure accuracy, signaling AI impact in science.",
+      "description": "AlphaFold2 predicted protein 3D structures from amino acid sequences at accuracy matching experimental crystallography. It used attention-based neural networks trained on the Protein Data Bank, solving a problem that had resisted computational biology for over fifty years.",
       "clockTime": "11:46 PM",
-      "alignment": "right",
       "severity": "critical"
     },
     {
-      "year": 2020,
+      "year": "May 2020",
       "title": "GPT-3 Released",
-      "description": "OpenAI's GPT-3 shows strong few-shot language capability at scale, setting the modern LLM baseline.",
+      "description": "GPT-3's 175 billion parameters enabled few-shot task completion from plain-text prompts alone, without weight updates. It established that sufficient scale in autoregressive language modeling produces emergent instruction-following behavior absent from smaller predecessors.",
       "clockTime": "11:45 PM",
-      "alignment": "left",
       "severity": "critical"
     },
     {
-      "year": 2018,
+      "year": "October 2018",
       "title": "BERT: Bidirectional Language Understanding",
-      "description": "Google introduces BERT (Bidirectional Encoder Representations from Transformers), enabling deep bidirectional contextual language understanding and dramatically improving NLP tasks like search, question answering, and sentence classification.",
+      "description": "BERT pre-trains transformer encoders using masked language modeling and next-sentence prediction, producing bidirectional token representations. Fine-tuned BERT set new records on eleven NLP benchmarks, including SQuAD and GLUE, and became the basis for Google Search ranking improvements.",
       "clockTime": "11:43 PM",
-      "alignment": "right",
       "severity": "critical"
     },
     {
-      "year": 2017,
+      "year": "June 2017",
       "title": "Transformer Architecture",
-      "description": "The 'Attention Is All You Need' paper introduces transformers, revolutionizing natural language processing and enabling large-scale language models.",
+      "description": "Vaswani et al. replaced recurrent networks with scaled dot-product attention in an encoder-decoder architecture for sequence transduction. Transformers parallelized training across sequence positions, enabling larger model scales and forming the architectural basis for all major subsequent language models.",
       "clockTime": "11:40 PM",
-      "alignment": "left",
       "severity": "critical"
     },
     {
-      "year": 2016,
+      "year": "March 2016",
       "title": "AlphaGo Defeats Lee Sedol",
-      "description": "AlphaGo defeats Lee Sedol, revealing creative search and intuition-like play.",
+      "description": "AlphaGo defeated world champion Lee Sedol 4–1 using Monte Carlo tree search guided by deep neural network policy and value functions trained on human games and self-play. It demonstrated that learned heuristics could replace hand-crafted evaluation in high-dimensional combinatorial search.",
       "clockTime": "11:35 PM",
-      "alignment": "right",
       "severity": "critical"
     },
     {
-      "year": 2012,
+      "year": "September 2012",
       "title": "Deep Learning Revolution",
-      "description": "AlexNet wins ImageNet and sparks the modern deep-learning wave.",
+      "description": "AlexNet's convolutional neural network reduced ImageNet top-5 error to 15.3%, compared to 26.2% for the next best entry. Trained on two GPUs with ReLU activations and dropout regularization, it demonstrated that deep networks on commodity hardware could decisively outperform hand-engineered vision pipelines.",
       "clockTime": "11:25 PM",
-      "alignment": "left",
       "severity": "default"
     },
     {
-      "year": 1997,
+      "year": "May 1997",
       "title": "Deep Blue Defeats Kasparov",
-      "description": "IBM's Deep Blue defeats Garry Kasparov, proving machines can surpass humans in chess.",
+      "description": "IBM's Deep Blue defeated Garry Kasparov in a six-game match, the first time a computer had beaten a reigning world chess champion under standard tournament conditions. It used custom VLSI chips to evaluate 200 million positions per second combined with handcrafted evaluation functions.",
       "clockTime": "11:15 PM",
-      "alignment": "right",
       "severity": "default"
     },
     {
-      "year": 1966,
+      "year": "1966",
       "title": "ELIZA",
-      "description": "ELIZA shows early language processing and how quickly people attribute understanding to machines.",
+      "description": "ELIZA, developed by Joseph Weizenbaum at MIT, simulated conversation by pattern-matching user input and substituting it into scripted response templates. Despite having no semantic understanding, users attributed comprehension and empathy to it, prompting early discussion of human-computer interaction and anthropomorphism.",
       "clockTime": "11:08 PM",
-      "alignment": "left",
       "severity": "default"
     },
     {
-      "year": 1956,
+      "year": "July 1956",
       "title": "Dartmouth Conference",
-      "description": "At Dartmouth, John McCarthy and others coin the term Artificial Intelligence and launch the field.",
+      "description": "The Dartmouth Summer Research Project on Artificial Intelligence, organized by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon, formally established AI as a research discipline. Attendees proposed that machine simulation of learning and intelligence was tractable and worth sustained scientific investigation.",
       "clockTime": "11:05 PM",
-      "alignment": "right",
       "severity": "default"
     },
     {
-      "year": 1950,
+      "year": "October 1950",
       "title": "The Turing Test",
-      "description": "Alan Turing proposes the imitation game, a practical test for machine intelligence.",
+      "description": "Alan Turing's paper 'Computing Machinery and Intelligence' proposed replacing the question of machine consciousness with a behavioral criterion: whether a machine could conduct text-based conversation indistinguishable from a human. This framing shifted AI evaluation toward empirical, task-based criteria.",
       "clockTime": "11:00 PM",
-      "alignment": "left",
       "severity": "default"
     }
   ]
